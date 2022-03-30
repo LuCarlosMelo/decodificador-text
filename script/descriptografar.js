@@ -38,3 +38,9 @@ function renomearDescripto(conteudoDescripto){
 
     return resultadoDescripto;
 }
+
+botaoCopiar.addEventListener('click', function(){
+    var copiarTexto = document.querySelector('.descriptografar__entrada');
+    copiarTexto.select();
+    document.execCommand('copy');
+})  
