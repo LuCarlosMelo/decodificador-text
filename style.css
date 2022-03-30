@@ -30,3 +30,29 @@ body {
     border: none; 
     resize: none;  
 }
+
+.botao{
+    color: #ccc;
+    border: 1px solid #0A3871;
+    border-radius: 10px;
+    font-size: 16px; 
+    height: 3em;   
+}
+
+.botao__criptografar{
+    background: #0A3871;
+    color: #FFF;
+    width: 100%;
+}
+
+.descriptografar__botao {
+    background: #D8DFE8;
+    color: #0A3871;
+    width: calc(80% - 1px);
+}
+
+.copiar__botao {
+    background: #D8DFE8;
+    color: #0A3871;
+    width: 19%; 
+}
