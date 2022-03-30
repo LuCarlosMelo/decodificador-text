@@ -5,3 +5,28 @@ body {
 .logo {
     width: 100px;
 }
+
+.caixas{
+    align-content: space-between;
+    display: flex;
+    margin:  1em 0 1em 10em; 
+   
+}
+
+.criptografar {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10em;
+}
+
+.descriptografar {
+    display: flex;
+    flex-direction: column;
+}
+
+.textarea {
+    margin-bottom: 24px;
+    border-radius: 10px;
+    border: none; 
+    resize: none;  
+}
